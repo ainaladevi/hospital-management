@@ -7,7 +7,7 @@ const AdditionalMeasurements = () => {
     <div className="measurements-section mt-5">
       <h3 className="measurements-heading">Additional Measurements</h3>
       <hr />
-      <div className="vitalssign-form mt-3">
+      <div className="vitalssign-form1 mt-3">
         <div>
           <label for="">Blood Glucose (mg/dL)</label>
           <br />

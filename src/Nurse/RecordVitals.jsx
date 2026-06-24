@@ -17,7 +17,7 @@ const RecordVitals = () => {
                 <input type='text'/>
             </div>
         </div>
-        <div className="vitalssign-form">
+        <div className="vitalssign-form2">
                 <div>
                   <label for="">
                     <TbActivityHeartbeat /> Blood Pressure (mmHg) *
@@ -42,7 +42,7 @@ const RecordVitals = () => {
                   <input type="text" placeholder="98.6" />
                 </div>
               </div>
-              <div className="vitalssign-form1 mt-3">
+              <div className="vitalssign-form3 mt-3">
                 <div>
                   <label for="">Respiratory Rate (per min) *</label>
                   <br />
@@ -63,10 +63,10 @@ const RecordVitals = () => {
                     <label for ="">Notes</label><br/>
                     <textarea placeholder='Any observations or concerns...'></textarea>
               </div>
-              <div className="btns-section mt-4">
+              <div className="btns-section mt-3">
                 <button type='submit' className='save-btn'><IoMdCheckmarkCircleOutline /> Save Vitals</button>
                 <button type='reset' className='clear-btn'>Clear Form</button>
-                <button className='sync-btn'>Auto-sync from IoT devices</button>
+                <button className='sync-btn '>Auto-sync from IoT devices</button>
               </div>
     </div>
   )

@@ -32,7 +32,7 @@ const VitalsSigns = () => {
           <input type="text" placeholder="98.6" />
         </div>
       </div>
-      <div className="vitalssign-form mt-3">
+      <div className="vitalssign-form1 mt-3">
         <div>
           <label for="">Respiratory Rate (per min) *</label>
           <br />

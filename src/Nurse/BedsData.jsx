@@ -7,8 +7,8 @@ const BedsData = () => {
     const[showPopup, setShowPopup] = useState(false);
   return (
     <section className="container bedsdata-section">
-      <div className="bedcards row mt-5">
-        <div className="beds-cards col-lg-4 d-flex flex-wrap gap-2">
+      <div className="bedcards">
+        <div className="beds-cards d-flex flex-wrap gap-2">
           <div className="hero-beds">
             <div className="icu-card">
               <MdBedroomParent size={48} color="#E7000B" />
@@ -31,9 +31,9 @@ const BedsData = () => {
           </div>
           <hr/>
             <div className="icu-inner-details1">
-              <span>Patient:</span>
-              <span>Robert Taylor</span>
-              <span>ID: PAT005</span>
+              <span className="patient">Patient:</span>
+              <span className="patient-name">Robert Taylor</span>
+              <span className="patient">ID: PAT005</span>
             </div>
             <div className="icu-inner-details2 mt-2">
               <div className="card-details2 mt-4">
@@ -54,7 +54,7 @@ const BedsData = () => {
                 <button className="discharge-btn">Discharge</button>
             </div>
         </div>
-        <div className="beds-cards col-lg-4">
+        <div className="beds-cards">
           <div className="hero-beds">
             <div className="icu-card">
               <MdBedroomParent size={48} color="#0084D1" />
@@ -77,9 +77,9 @@ const BedsData = () => {
           </div>
           <hr/>
             <div className="icu-inner-details1">
-              <span>Patient:</span>
-              <span>Maria Garcia</span>
-              <span>ID: PAT006</span>
+              <span className="patient">Patient:</span>
+              <span className="patient-name">Maria Garcia</span>
+              <span className="patient">ID: PAT006</span>
             </div>
             <div className="icu-inner-details2 mt-2">
               <div className="card-details2">
@@ -100,7 +100,7 @@ const BedsData = () => {
                 <button className="discharge-btn">Discharge</button>
             </div>
           </div>
-        <div className="beds-cards col-lg-4">
+        <div className="beds-cards">
           <div className="hero-beds">
             <div className="icu-card">
               <MdBedroomParent size={48} color="#00A63E" />
@@ -129,8 +129,8 @@ const BedsData = () => {
             )}
         </div>
       </div>
-      <div className="bedcards row mt-4">
-        <div className="beds-cards col-lg-4">
+      <div className="bedcards">
+        <div className="beds-cards">
           <div className="hero-beds">
             <div className="icu-card">
               <MdBedroomParent size={48} color="#0084D1" />
@@ -153,9 +153,9 @@ const BedsData = () => {
           </div>
           <hr/>
             <div className="icu-inner-details1">
-              <span>Patient:</span>
-              <span>David Kim</span>
-              <span>ID: PAT007</span>
+              <span className="patient">Patient:</span>
+              <span className="patient-name">David Kim</span>
+              <span className="patient">ID: PAT007</span>
             </div>
             <div className="icu-inner-details2 mt-2">
               <div className="card-details2">
@@ -173,7 +173,7 @@ const BedsData = () => {
                 <button className="discharge-btn">Discharge</button>
             </div>
         </div>
-        <div className="beds-cards col-lg-4">
+        <div className="beds-cards">
           <div className="hero-beds">
             <div className="icu-card">
               <MdBedroomParent size={48} color="#0084D1" />
@@ -196,9 +196,9 @@ const BedsData = () => {
           </div>
           <hr/>
             <div className="icu-inner-details1">
-              <span>Patient:</span>
-              <span>Lisa Martinez</span>
-              <span>ID: PAT008</span>
+              <span className="patient">Patient:</span>
+              <span className="patient-name">Lisa Martinez</span>
+              <span className="patient">ID: PAT008</span>
             </div>
             <div className="icu-inner-details2 mt-2">
               <div className="card-details2">
@@ -216,7 +216,7 @@ const BedsData = () => {
                 <button className="discharge-btn">Discharge</button>
             </div>
           </div>
-        <div className="beds-cards col-lg-4">
+        <div className="beds-cards">
           <div className="hero-beds">
             <div className="icu-card">
               <MdBedroomParent size={48} color="#00A63E" />
@@ -243,8 +243,8 @@ const BedsData = () => {
             )}
         </div>
       </div>
-      <div className="bedcards row mt-4">
-         <div className="beds-cards1 col-lg-4">
+      <div className="bedcards">
+         <div className="beds-cards1">
           <div className="hero-beds">
             <div className="icu-card">
               <MdBedroomParent size={48} color="#90A1B9" />
@@ -270,7 +270,7 @@ const BedsData = () => {
                 <AdmitPatient closePopup={()=>setShowPopup(false)}/>
             )}
         </div>
-        <div className="beds-cards1 col-lg-4">
+        <div className="beds-cards1">
           <div className="hero-beds">
             <div className="icu-card">
               <MdBedroomParent size={48} color="#F54900" />
@@ -293,9 +293,9 @@ const BedsData = () => {
           </div>
           <hr/>
             <div className="icu-inner-details1">
-              <span>Patient:</span>
-              <span>Thomas Wright</span>
-              <span>ID: PAT009</span>
+              <span className="patient">Patient:</span>
+              <span className="patient-name">Thomas Wright</span>
+              <span className="patient">ID: PAT009</span>
             </div>
             <div className="icu-inner-details2 mt-2">
               <div className="card-details2">

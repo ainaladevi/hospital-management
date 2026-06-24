@@ -6,7 +6,7 @@ import { LuClipboardList } from "react-icons/lu";
 const PatientCare = () => {
   return (
     <section className=" patientcare-section mt-5">
-      <div className="card row gap-2">
+      <div className="row gap-2 ms-2">
         <div className="bed-card col-lg-5">
           <div className="bed-inner-content">
             <p className="bed-inner-data">Bed Status by Ward</p>

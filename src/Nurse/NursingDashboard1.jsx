@@ -13,9 +13,6 @@ const NursingDashboard1 = () => {
             <div className="content">
               <Navbar/>
               <Nursingdashboard/>
-              <HospitalData/>
-              <CriticalPatients/>
-              <PatientCare/>
             </div>
           </div>
   )
