@@ -1288,7 +1288,7 @@ body,
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-right: 10px;
   margin-bottom: 20px;
 }
@@ -1949,7 +1949,7 @@ body,
   display: flex;
   align-items: flex-start;
   margin: 0;
-  margin-top: 90px !important;
+  margin-top: 80px !important;
 }
 .patientsub-heading {
   font-weight: 400;
