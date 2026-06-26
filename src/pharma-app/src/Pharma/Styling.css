@@ -63,6 +63,8 @@ body,
   justify-content: space-between;
   padding-right: 16px;
   padding-left: 16px;
+  margin-bottom: 0px;
+  border-bottom: 0.8px solid #e2e8f0;
 }
 .header-content {
   display: flex;
@@ -139,6 +141,7 @@ body,
   letter-spacing: 0px;
   text-align: center;
   color: #45556c;
+  margin-top: 10px;
 }
 /* .bed-management {
   width: 125.46px;
@@ -184,7 +187,7 @@ body,
   padding-left: 16px;
   padding-right: 16px;
   gap: 12px;
-  border-right: 0.8px solid #e2e8f0;
+  border-right: 0.8px solid #e2e8f0 !important;
   border-top: 0.8px solid #e2e8f0;
   position: fixed;
   left: 0;
