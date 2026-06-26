@@ -20,7 +20,7 @@ const Sidebar = () => {
         className="collapse d-lg-block sidebar collapse bg-white"
       >
             <div className="position-fixed">
-              <div className="list-group list-group-flush mx-3 mt-4">
+              <div className="list-group list-group-flush ms-1 mt-1">
                 <div className="header">
                               <div className="header-content">
                                     <img src={medicareicon} className="medi-icon"></img>
